@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D66B6FBE26498FA300BD55F4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D66B6FBD26498FA300BD55F4 /* main.c */; };
+		D66B6FBE26498FA300BD55F4 /* calc.c in Sources */ = {isa = PBXBuildFile; fileRef = D66B6FBD26498FA300BD55F4 /* calc.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		D66B6FBA26498FA300BD55F4 /* DividendCalculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DividendCalculator; sourceTree = BUILT_PRODUCTS_DIR; };
-		D66B6FBD26498FA300BD55F4 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		D66B6FBD26498FA300BD55F4 /* calc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = calc.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		D66B6FBC26498FA300BD55F4 /* DividendCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				D66B6FBD26498FA300BD55F4 /* main.c */,
+				D66B6FBD26498FA300BD55F4 /* calc.c */,
 			);
 			path = DividendCalculator;
 			sourceTree = "<group>";
@@ -72,6 +72,7 @@
 				D66B6FB626498FA300BD55F4 /* Sources */,
 				D66B6FB726498FA300BD55F4 /* Frameworks */,
 				D66B6FB826498FA300BD55F4 /* CopyFiles */,
+				D6E94715264AEF300087D643 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -113,12 +114,33 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D6E94715264AEF300087D643 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D66B6FB626498FA300BD55F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D66B6FBE26498FA300BD55F4 /* main.c in Sources */,
+				D66B6FBE26498FA300BD55F4 /* calc.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
